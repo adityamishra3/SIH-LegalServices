@@ -1,15 +1,21 @@
 import { useState,useEffect } from "react";
 function Navbar(){
-
-
     return <div style={{
         backgroundColor:"#431901",
         height:50,
         display:"flex",
-        justifyContent:"flex-start"
+        justifyContent:"flex-start",  
+        color:"white"
     }}>
-        <ol>
-        </ol>
+        <div style={{
+            padding:15
+        }}>Home</div>
+        <div style={{
+            padding:15
+        }}>About Us</div>
+        <div style={{
+            padding:15
+        }}></div>
 
     </div>
 }
