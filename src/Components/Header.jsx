@@ -14,10 +14,21 @@ function Header(){
                 paddingTop:20,
                 transform:"scale(0.7)"
             }} />
-            <img src="./Images/Text.png" alt="Moto" style={{
-                transform:"scale(0.7)",
-                marginLeft:-50 
-            }} />
+                <strong><span style={{
+                    display:"inline-block",
+                    top:-55,
+                    position:"relative",
+                    fontSize:17,
+                    paddingBlock:14
+                }}>विधि और न्याय मंत्रालय</span></strong>
+                <strong><span style={{
+                    position:"relative",
+                    top:-17,
+                    fontSize:22,
+                    display:"inline-block",
+                    left:-160,
+                    paddingTop:9
+                }}>Ministry of Law <br />and Justice</span></strong>
         </div>
         <div style={{
             justifyContent:"space-between"
