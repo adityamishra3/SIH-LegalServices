@@ -6,9 +6,8 @@ import UserSignup from './Pages/UserSignup';
 import LawyerSignup from './Pages/LaywerSignup';
 import Booking from './Pages/Booking';
 import ProfileL from './Pages/ProfileL';
-import ProfileU from './Pages/ProfileU';
+import UserLanding from './Pages/UserLanding';
 function App() {
-
   return (
     <>
       <BrowserRouter>
@@ -18,7 +17,7 @@ function App() {
           <Route path='/LawyerSignup' element={<LawyerSignup/>}/>
           <Route path='/BookingServices' element={<Booking/>}/>
           <Route path='/Laywers' element={<ProfileL/>}/>
-          <Route path='/Users' element={<ProfileU/>}/>
+          <Route path='/Users' element={<UserLanding/>}/>
         </Routes>
       </BrowserRouter>
     </>

@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
-function ProfileU(){
+function UserLanding(){
     return <>
         
     </>
 }
-export default ProfileU;
+export default UserLanding;
